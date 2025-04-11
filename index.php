@@ -69,7 +69,7 @@ $dadosEvento = ["Nome" => "Evento Etech 20256", "Dia" => "28/06/2026", "Local" =
             <a class="botao" href="https://brasil.bettshow.com/" target="_blank">Saiba Mais</a>
         </div>
         <div class="img-headlinepg">
-            <img style="max-width: 100%; border-radius: 20px;" src="imagens/ChatGPT Image 10 de abr. de 2025, 20_22_38.png" alt="">
+            <img style="max-width: 100%; border-radius: 20px;" src="ChatGPT Image 10 de abr. de 2025, 20_22_38.png" alt="">
         </div>
     </header>
 
