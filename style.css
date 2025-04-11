@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CFCFCF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbarpg {
+    padding: 40px 20px 0;
+    text-align: center;
+}
+
+.navbarpg h1 {
+    font-family: "Wallpoet", sans-serif;
+    font-weight: 400;
+    color: blueviolet;
+    font-size: 2.5rem;
+}
+
+.headerpg {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 5%;
+    gap: 30px;
+}
+
+.headlinepg {
+    flex: 1 1 300px;
+}
+
+.img-headlinepg {
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+.img-headlinepg img {
+    max-width: 100%;
+    border-radius: 20px;
+    height: auto;
+}
+
+.headlinepg h2 {
+    color: blueviolet;
+    padding-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.headlinepg p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.headlinepg a.botao {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.headlinepg a.botao:hover {
+    background-color: #6a1b9a;
+}
+
+.cardpg-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 5%;
+    flex-wrap: wrap;
+}
+
+.cardpg {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.cardpg:hover {
+    transform: translateY(-5px);
+}
+
+.cardpg h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.cardpg p {
+    font-size: 1rem;
+    color: #555;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .navbarpg h1 {
+        font-size: 2rem;
+    }
+
+    .headerpg {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .headlinepg h2 {
+        font-size: 1.5rem;
+    }
+
+    .headlinepg a.botao {
+        font-size: 0.95rem;
+    }
+}
+
+.footer {
+    background-color: blueviolet;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 14px;
+}
