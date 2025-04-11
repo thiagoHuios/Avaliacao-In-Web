@@ -114,7 +114,7 @@ $dadosEvento = ["Nome" => "Evento Etech 20256", "Dia" => "28/06/2026", "Local" =
     <footer class="footer">
         <div class="footer-content">
             <p>&copy; 2026 ETech. Todos os direitos reservados.</p>
-            <p>Desenvolvido por [Seu Nome]</p>
+            <p>Desenvolvido por Andre, Gabriel, Kauan, Thiago</p>
         </div>
     </footer>
 
